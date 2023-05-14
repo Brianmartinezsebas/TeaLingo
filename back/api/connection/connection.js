@@ -5,7 +5,7 @@ const mysqlConnection = mysql.createConnection({
   user: 'root',
   password: '',
   database: 'tealingo',
-  port: '8889'
+  port: '3306'
 });
 
 mysqlConnection.connect( err => {
