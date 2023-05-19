@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 // Ruta para el inicio de sesion
 router.post('/singin', (req, res) => {
   const { userName, pass } = req.body;
-  mysqlConnection.query('select userName,roleId from user where username=? and pass=?',
+  mysqlConnection.query('select username,roleid from user where username=? and pass=?',
     [userName, pass],
     (err, rows, fields) => {
       if (!err) {

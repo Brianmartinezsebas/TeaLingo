@@ -14,30 +14,10 @@ TeaLingo es un proyecto que tiene como objetivo proporcionar una herramienta int
 
 _Inserta aquí algunas capturas de pantalla o gifs que muestren la interfaz y la experiencia de usuario del sitio._
 
-## Cómo empezar
-
-### Requisitos previos
-
-Para utilizar TeaLingo, solo necesitas un navegador web actualizado y acceso a internet. No se requiere ninguna instalación adicional.
-
-### Cómo utilizar TeaLingo
-
-1. Visita el sitio web de TeaLingo: _inserta aquí la URL del sitio web_.
-
-2. Explora las emociones: Navega por las diferentes emociones disponibles y observa las expresiones faciales y corporales asociadas a cada una. Tómate tu tiempo para estudiar los detalles y familiarizarte con las características distintivas de cada emoción.
-
-3. Aprende sobre gestos: Accede a la sección de gestos comunicativos y explora los diferentes movimientos corporales que se utilizan para expresarse. Observa los ejemplos visuales y lee las descripciones para comprender cómo se utilizan en diferentes situaciones.
-
-4. Lee los recursos educativos: Si deseas profundizar en tus conocimientos sobre el TEA, las emociones y los gestos, asegúrate de consultar la sección de recursos educativos. Aquí encontrarás artículos informativos y consejos prácticos que te ayudarán a ampliar tu comprensión y habilidades.
-
-## Contribución
-
-TeaLingo es un proyecto de código abierto y siempre estamos abiertos a contribuciones. Si tienes sugerencias, ideas o mejoras, no dudes en abrir un problema (issue) o enviar una solicitud de extracción (pull request) en nuestro repositorio de GitHub.
-
 ## Autores
 
-- Nombre del autor 1
-- Nombre del autor 2
+- Brian Sebastian Martinez
+- Lautaro Comoglio
 
 ## Licencia
 

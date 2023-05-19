@@ -1,0 +1,1 @@
+export var backUrl = "http://localhost:3000"
