@@ -8,8 +8,8 @@ const jwt = require('jsonwebtoken');
 
 const private_key = "m3t1r4r0nl4m4l4" // clave "privada" para encriptar o verificar el token JTW
 
-router.get('/', (req, res) => {
-});
+router.post('/test', verifyToken, (req, res) => { res.status(200).json('Token valido'); });
+
 
 // Ruta para el inicio de sesion
 router.post('/singin', (req, res) => {
@@ -19,8 +19,9 @@ router.post('/singin', (req, res) => {
     (err, rows, fields) => {
       if (!err) {
         if (rows.length > 0) {
-          let data = JSON.stringify(rows[0]);
-          const token = jwt.sign(data, private_key);
+          const token = jwt.sign({
+            data: rows[0]
+        }, private_key);
           res.status(200).json({ token });
         } else {
           res.status(401).json('No founded');

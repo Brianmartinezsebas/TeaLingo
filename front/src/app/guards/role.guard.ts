@@ -20,15 +20,15 @@ export class RoleGuard implements CanActivate {
     const expectedRole = route.data['expectedRole'];
     const token: any = localStorage.getItem('token');
     const { data }: any = decode(token);
-    if (!localStorage.getItem('token') || data.rolId !== expectedRole) {
-      this.router.navigate(['user/panel'])
+    if (!localStorage.getItem('token') || data.roleid !== expectedRole) {
+      this.router.navigate(['priv'])
       return false;
     }
     return this.http.post(this.url + '/user/test', token).subscribe(async (res: any) =>{
       if(res === "Token valido"){
         return true
       }
-      this.router.navigate(['user/panel'])
+      this.router.navigate(['priv'])
       return false
     });
   }
