@@ -1,4 +1,4 @@
-# TeaLingo: Sitio para ayudar a personas con TEA a identificar emociones y gestos
+# TeaLingo: Web-App para ayudar a personas con TEA a identificar emociones y gestos
 
 TeaLingo es un proyecto que tiene como objetivo proporcionar una herramienta interactiva para ayudar a las personas con Trastorno del Espectro Autista (TEA) a identificar emociones y gestos. Este proyecto busca brindar un recurso educativo y de apoyo para facilitar la comprensión y la comunicación emocional.
 
@@ -18,11 +18,3 @@ _Inserta aquí algunas capturas de pantalla o gifs que muestren la interfaz y la
 
 - Brian Sebastian Martinez
 - Lautaro Comoglio
-
-## Licencia
-
-Este proyecto se distribuye bajo la licencia MIT. Puedes encontrar más detalles en el archivo [LICENSE](link-a-archivo-LICENSE).
-
-## Agradecimientos
-
-Agradecemos a todas las personas que han contribuido a este proyecto y a la comunidad de personas con TEA por su inspiración y apoyo.
